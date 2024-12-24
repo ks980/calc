@@ -1,0 +1,6 @@
+/target
+/.idea
+/vfile
+/venv
+/.cargo
+Cargo.lock

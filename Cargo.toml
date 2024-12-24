@@ -1,0 +1,20 @@
+[package]
+name = "calc"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "gbeam"
+crate-type = ["cdylib"]
+
+[dependencies]
+ndarray = { version = "0.16.1"}
+num-complex = "0.4.6"
+ndrustfft = "0.5.0"
+pyo3 = { version = "0.23.3", features = ["extension-module"] }
+numpy = "0.23.0"
+rayon = "1.10.0"
+nalgebra = "0.33.2"
+
+[build-dependencies]
+maturin = "*"
